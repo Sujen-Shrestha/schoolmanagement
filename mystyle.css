@@ -1,0 +1,641 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+.d_flex
+{
+    display: flex;
+}
+
+input[type=radio]
+{
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 30px;
+}
+
+.gender_lb
+{
+    width: 470px;
+    text-align: left;
+    font-weight: 50;
+    color: white;
+}
+
+.label_set
+{
+    text-align: left;
+    font-weight: 50;
+    color: white;
+    width: 100%;
+}
+
+.login_heading
+{
+    font-size: xx-large;
+    padding-top: 9px;
+    line-height: 44px;
+    text-align: left;
+    margin-left: 21px;
+    padding-left: 20px;
+    height: 116px;
+    border-left: 3px solid white;
+}
+
+
+.tmp_h
+{
+    height: 100%;
+}
+
+.user-img-w-h
+{
+    width: 150px;
+    height: 150px;
+}
+.user-img-w-h-home
+{
+    width: 125px;
+    height: 125px;
+}
+.edit-p
+{
+    font-size: 13px;
+    margin-top: -14px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    width: max-content;
+    position: relative;
+    
+}
+
+.std-nav
+{
+    font-size: 20px;
+    cursor: pointer;
+    width: max-content;
+    position: relative;
+}
+
+.std-upper-nav
+{
+    height: 8%;
+}
+.std-lower-nav
+{
+    height: 92%;
+}
+.std-upper-nav-logo
+{
+    width: 115px;
+    max-height: 55px;
+}
+
+.uper-nav-p
+{
+    font-size: 20px;
+    line-height: 55px;
+    margin: 0;
+}
+
+
+
+.max-height
+{
+    height: 100%;
+}
+.msg-box
+{
+    padding: 20px;
+    width: 600px;
+}
+
+.welcome-h
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+.welcome-p
+{
+    width: 360px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.shadow-light
+{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 19%), 0 1px 18px 0 rgb(0 0 0 / 19%);
+}
+
+.home-main-logo
+{
+   background-image: url(./img/logo-lg-2.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+
+.std-nav:hover::after , .edit-p:hover::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+
+.m-9
+{
+    margin-top: 90px;
+}
+
+
+.bg-dark-b
+{
+    background-color: #37474f;
+}
+
+.c-white
+{
+    color: white;
+}
+
+.bg-light-b
+{
+    background-color: #61717a;
+}
+
+.bg-full-b
+{
+    background-color: #102027;
+}
+
+.input_field
+{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.input_btn
+{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.w-15
+{
+    width: 13%;
+}
+.h-10
+{
+    height: 100%;
+}
+.h-13
+{
+    height: 13% !important;
+}
+.h-40
+{
+    height: 40% !important;
+}
+.w-23
+{
+    width: 23% !important;
+}
+.w-30
+{
+    width: 30% !important;
+}
+.h-20
+{
+    height: 100%;
+}
+.h-30
+{
+    height:30% !important;
+}
+.bg-light-w
+{
+    background-color: #c4c4c4;
+}
+.module-in-nav
+{
+    height: 100px !important;
+}
+
+.bk-arow
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    font-size: 35px;
+    cursor: pointer;
+}
+.under-line-hover:hover::after
+{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+.cursor-p
+{
+    cursor: pointer;
+}
+.w-max-c
+{
+    width: max-content !important;
+}
+.sch-p
+{
+    margin: 0;
+}
+.d-flex-center-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.d-flex-start-row
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+.d-flex-end-row
+{
+    display: flex;
+    justify-content: flex-end;;
+    align-items: center;
+    flex-direction: row;
+}
+.d-flex-row-align-start
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.d-flex-center-col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.d-flex-around-row
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.d-flex-around-col
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h-15
+{
+    height: 15% !important;
+}
+
+.grade-nav
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 130px;
+    text-align: center;
+}
+.w-80
+{
+    width: 80% !important;
+}
+
+.text-upper
+{
+    text-transform: uppercase;
+}
+
+.bg-student-n
+{
+    font-size: 30px;
+    font-size: 115px;
+    color: green;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.h-10-r
+{
+    height: 10% !important;
+}
+
+.attend-std-id-col-data
+{
+    font-size: 15px;
+    background-color: #61717a;
+}
+.attend-std-id-col-nav
+{
+    font-size: 17px;
+    background-color: #37474f;
+
+}
+
+.w-90
+{
+    width: 90% !important;
+}
+
+.w-15-r
+{
+    width: 15% !important;
+}
+
+.m-h-30
+{
+    min-height: 30% !important;
+}
+
+.announc-title
+{
+    font-size: 20px;
+    color: #4CAF50;
+}
+
+.announc-time
+{
+    font-size: 10px;
+    
+}
+
+.m-h-75
+{
+    min-height: 75% !important;
+}
+
+.mod-l-attend-c
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+.mod-l-attend-c-box , .mod-l-assign-c-box , .mod-l-module-content-c-box
+{
+    padding-left: 10px;
+}
+
+.mod-l-assign-c
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mod-l-module-content-c
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+.adm-add-std-aprove , .adm-del-std-aprove
+{
+    font-size: 20px !important;
+    cursor: pointer !important;
+}
+.adm-add-std-aprove:hover
+{
+    color: #08e910 !important;
+}
+
+.adm-del-std-aprove:hover
+{
+    color: red !important;
+}
+.h-70
+{
+    height: 70% !important;
+}
+
+.m-h-100
+{
+    min-height: 100%;
+}
+
+.pt-160px
+{
+    padding-top: 160px;
+    padding-bottom: 20px;
+}
+
+.submit_button
+{
+    font-family: "Roboto", sans-serif !important;
+    text-transform: uppercase !important;
+    outline: 0 !important;
+    background: #4CAF50 !important;
+    width: 100% !important;
+    border: 0 !important;
+    padding: 15px !important;
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    margin:0 !important;
+    margin-top: 15px !important;
+}
+
+.max-h-75
+{
+    max-height: 75%;
+}
+
+.add-mod-l-form
+{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.add-mod-l-form > div > input ,.add-mod-l-form > div > textarea
+{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #61717a;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: white;
+}
+
+.add-mod-l-form > div > input::placeholder
+{
+    color: white;
+    opacity: 1; 
+}
+.add-mod-l-form > div > input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+  }
+  
+.add-mod-l-form > div > input::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+  }
+
+.h-8
+{
+    height: 8% !important;
+}
+
+.adm-mod-l-edit-btn , .adm-mod-l-del-btn ,  .course_eye_btn
+{
+    font-size: 20px !important;
+    cursor: pointer !important;
+}
+.adm-mod-l-edit-btn:hover , .adm-mod-edit-btn:hover , .adm-course-edit-btn:hover , .adm-edit-std:hover
+{
+    color: #08e910 !important;
+}
+
+.adm-mod-l-del-btn:hover , .adm-mod-delete-btn:hover ,.adm-course-del-btn:hover , .adm-del-std:hover
+{ 
+    color: red !important;
+}
+
+.checkbox_size 
+{
+    transform: scale(1.8);
+}
+
+
+.adm-mod-edit-btn , .adm-mod-delete-btn ,.adm-course-edit-btn , .adm-course-del-btn , .adm-edit-std , .adm-del-std
+{
+    font-size: 20px !important;
+    cursor: pointer !important; 
+}
+
+.select_type
+{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #61717a;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: white;
+
+}
+
+.adm-anounc-edit-btn , .adm-anounc-del-btn
+{
+    font-size: 20px !important;
+    cursor: pointer !important;
+    color: white;
+}
+
+.flow_auto
+{
+    overflow: auto;
+}
+
+.add_document_button
+{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #61717a;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 15px  !important;
+    font-size: 17px !important;
+}
+
+.m-h-30
+{
+    min-height: 35% !important;
+}
+
+
+
+
+.cross_in_files , .cross_in_assign_files
+{
+    position:absolute;
+    color: white;
+    right: 15px;
+    top: 13px;
+    font-size: 24px;
+    z-index: 100;
+    cursor: pointer;
+
+}
+
+.file_box
+{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #61717a;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: white;
+}
+
+.p_setting_for_file
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+a
+{
+    text-decoration: none !important;
+    color: white;
+}
+a:hover
+{
+    color: white;
+}
+
